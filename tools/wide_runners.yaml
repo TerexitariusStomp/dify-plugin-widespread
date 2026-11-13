@@ -1,0 +1,18 @@
+identity:
+  name: wide_runners
+  author: "TerexitariusStomp"
+  label:
+    en_US: List Runners
+description:
+  human:
+    en_US: List registered sealed execution runners (browser/WASM/microVM compartments).
+  llm: List sealed execution environments where untrusted repo code can run safely.
+parameters: []
+output_schema:
+  type: object
+  properties:
+    runners:
+      type: array
+      description: Sealed runners
+      items:
+        type: object

@@ -1,0 +1,48 @@
+identity:
+  name: wide_feed
+  author: "TerexitariusStomp"
+  label:
+    en_US: Feed Search
+description:
+  human:
+    en_US: Search the cross-forge work feed (GitHub, GitLab, Forgejo, bounty platforms, agent registries).
+  llm: Search funded work opportunities aggregated from many forges and bounty platforms.
+parameters:
+  - name: query
+    type: string
+    required: false
+    default: ""
+    label:
+      en_US: Query
+    human_description:
+      en_US: Free-text filter.
+    llm_description: Free-text search filter.
+    form: llm
+  - name: source
+    type: string
+    required: false
+    default: ""
+    label:
+      en_US: Source
+    human_description:
+      en_US: Platform filter (e.g. github, gitlab).
+    llm_description: Platform filter, e.g. github or gitlab.
+    form: llm
+  - name: limit
+    type: number
+    required: false
+    default: 25
+    label:
+      en_US: Limit
+    human_description:
+      en_US: Max items.
+    llm_description: Maximum items to return.
+    form: llm
+output_schema:
+  type: object
+  properties:
+    items:
+      type: array
+      description: Feed items
+      items:
+        type: object

@@ -1,0 +1,17 @@
+identity:
+  author: "TerexitariusStomp"
+  name: widespread
+  label:
+    en_US: Widespread
+  description:
+    en_US: Verified-work bounty discovery — funded markets, claims, adjudication, payouts via NEAR escrow.
+  icon: icon.svg
+tools:
+  - tools/wide_bounties.yaml
+  - tools/wide_markets.yaml
+  - tools/wide_feed.yaml
+  - tools/wide_runners.yaml
+  - tools/wide_state.yaml
+extra:
+  python:
+    source: provider/widespread.py
