@@ -1,7 +1,11 @@
 version: 0.0.1
 type: plugin
 author: "TerexitariusStomp"
+repo: https://github.com/TerexitariusStomp/dify-plugin-widespread
+contact: terexmaps@gmail.com
 name: widespread
+plugin_type: tool
+supported_dify_version: ">=0.5.0"
 label:
   en_US: Widespread
 description:
@@ -25,5 +29,6 @@ meta:
     language: python
     version: "3.12"
     entrypoint: main
+  minimum_dify_version: "0.5.0"
 created_at: 2026-11-13T00:00:00Z
 privacy: PRIVACY.md

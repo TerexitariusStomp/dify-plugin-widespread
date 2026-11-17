@@ -46,3 +46,7 @@ output_schema:
       description: Feed items
       items:
         type: object
+
+extra:
+  python:
+    source: tools/wide_feed.py

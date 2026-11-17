@@ -26,3 +26,7 @@ output_schema:
       description: Open escrowed markets
       items:
         type: object
+
+extra:
+  python:
+    source: tools/wide_markets.py
