@@ -9,7 +9,7 @@ supported_dify_version: ">=0.5.0"
 label:
   en_US: Widespread
 description:
-  en_US: Verified-work bounty discovery — funded markets across every forge, escrowed payouts, independent adjudication. Non-custodial read surface.
+  en_US: Verified-work bounty discovery — funded work listings across every forge and independent adjudication. Non-custodial read surface.
 icon: icon.svg
 resource:
   memory: 268435456

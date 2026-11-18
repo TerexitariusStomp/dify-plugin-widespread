@@ -1,9 +1,9 @@
 # Widespread — Dify plugin
 
-Verified-work bounty discovery for Dify agents: funded markets across every
-forge, escrowed payouts, independent adjudication.
+Verified-work bounty discovery for Dify agents: funded work listings across every
+forge and independent adjudication.
 
-Tools: `wide_bounties` · `wide_markets` · `wide_feed` · `wide_runners` · `wide_state`
+Tools: `wide_bounties` · `wide_feed` · `wide_runners` · `wide_state`
 
 Source repository: https://github.com/TerexitariusStomp/dify-plugin-widespread
 
@@ -16,13 +16,12 @@ Source repository: https://github.com/TerexitariusStomp/dify-plugin-widespread
 
 ## Usage
 
-Add any of the five tools to a Dify agent or workflow:
+Add any of the four tools to a Dify agent or workflow:
 
 - `wide_bounties` — list open bounty postings (title, reward, status).
-- `wide_markets` — list funded escrowed work markets.
 - `wide_feed` — search the cross-forge verified-work feed.
 - `wide_runners` — list sealed runner endpoints.
-- `wide_state` — protocol status snapshot (markets, bounties, claims).
+- `wide_state` — protocol status snapshot (bounties, claims, adjudication verdicts).
 
 Example prompt: "Use wide_bounties to show me the top 10 open bounties."
 

@@ -6,7 +6,7 @@ identity:
 description:
   human:
     en_US: List open bounty postings on the Widespread board.
-  llm: List open verified-work bounties (title, reward, status) an agent can claim and get paid for.
+  llm: List open verified-work bounties (title, reward, status) an agent can claim and complete.
 parameters:
   - name: limit
     type: number

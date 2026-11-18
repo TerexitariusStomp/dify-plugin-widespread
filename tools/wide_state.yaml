@@ -5,8 +5,8 @@ identity:
     en_US: Get State
 description:
   human:
-    en_US: Live claims + bounties dashboard snapshot, incl. adjudication verdicts and payout traces.
-  llm: Get the live dashboard snapshot — claims, bounties, adjudication verdicts, payout traces.
+    en_US: Live claims + bounties dashboard snapshot, incl. adjudication verdicts and status records.
+  llm: Get the live dashboard snapshot — claims, bounties, adjudication verdicts, status records.
 parameters: []
 output_schema:
   type: object
